@@ -186,7 +186,7 @@ button:hover {
 }
 
 .service {
-    background-image: linear-gradient(#DC0073,#0A122A);;
+    background-image: linear-gradient(#DC0073,#0A122A);
     width: 100%;
     padding: 100px 0px;
 }
@@ -256,3 +256,92 @@ h5 {
     border: 2px solid #F9004D;
 }
 
+.contact_me {
+    width: 100%;
+    height: 290px;
+    background-image: linear-gradient(#0A122A, #DC0073);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact_me p {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contact_me .button_two {
+    background-color: #F9004D;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.contact_me .button_two:hover {
+    background-color: transparent;
+    border: 2px solid #F9004D;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(#DC0073,#0A122A);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1) {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2) {
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.social {
+    display: flex;
+}
+
+.social a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F9004D;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social a:hover {
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+.end {
+    position: absolute;
+    color: #F9004D;
+    bottom: 35px;
+    font-size: 14px;
+}
