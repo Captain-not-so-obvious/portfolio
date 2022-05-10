@@ -73,6 +73,11 @@ nav ul li a:hover {
     transform: translateY(-50%);
 }
 
+.content h6 {
+    color: #DC0073;
+    font-size: 32px;
+}
+
 h1 {
     color: white;
     margin: 20px 0px 20px;
@@ -204,11 +209,12 @@ button:hover {
     justify-content: center;
     align-items: center;
     min-height: 400px;
+    width: 100%;
 }
 
 .card {
-    height: 365px;
-    width: 335px;
+    height: 500px;
+    width: 80%;
     padding: 20px 35px;
     background: #191919;
     border-radius: 20px;
