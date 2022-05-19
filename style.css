@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-.hero {
+.background {
     height: 100vh;
     width: 100%;
     background-image: url(back.jpg);
@@ -66,14 +66,14 @@ nav ul li a:hover {
     transform: scale(1.2);
 }
 
-.content {
+.conteudo {
     position: absolute;
     top: 50%;
     left: 8%;
     transform: translateY(-50%);
 }
 
-.content h6 {
+.conteudo h6 {
     color: #DC0073;
     font-size: 32px;
 }
@@ -126,18 +126,18 @@ h4 {
     cursor: pointer;
 }
 
-.about {
+.sobre_mim {
     width: 100%;
     padding: 15px 0px;
     background-image: linear-gradient(#0A122A, #DC0073);
 }
 
-.about img {
+.sobre_mim img {
     height: auto;
     width: 430px;
 }
 
-.about_text {
+.meu_texto {
     width: 550px;
 }
 
@@ -150,14 +150,14 @@ h4 {
     justify-content: space-around;
 }
 
-.about_text h2 {
+.meu_texto h2 {
     color: white;
     font-size: 75px;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
 
-.about_text h5 {
+.meu_texto h5 {
     color: white;
     letter-spacing: 2px;
     font-size: 22px;
@@ -165,7 +165,7 @@ h4 {
     text-transform: capitalize;
 }
 
-.about_text p {
+.meu_texto p {
     color: #FCFC;
     letter-spacing: 1px;
     line-height: 28px;
@@ -190,7 +190,7 @@ button:hover {
     border: 2px solid #F9004D;
 }
 
-.service {
+.projetos {
     background-image: linear-gradient(#DC0073,#0A122A);
     width: 100%;
     padding: 100px 0px;
@@ -262,7 +262,7 @@ h5 {
     border: 2px solid #F9004D;
 }
 
-.contact_me {
+.contato {
     width: 100%;
     height: 290px;
     background-image: linear-gradient(#0A122A, #DC0073);
@@ -272,14 +272,14 @@ h5 {
     justify-content: center;
 }
 
-.contact_me p {
+.contato p {
     color: white;
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 25px;
 }
 
-.contact_me .button_two {
+.contato .button_two {
     background-color: #F9004D;
     color: white;
     text-decoration: none;
@@ -291,7 +291,7 @@ h5 {
     cursor: pointer;
 }
 
-.contact_me .button_two:hover {
+.contato .button_two:hover {
     background-color: transparent;
     border: 2px solid #F9004D;
 }
