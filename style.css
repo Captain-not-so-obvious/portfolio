@@ -213,8 +213,8 @@ button:hover {
 }
 
 .card {
-    height: 500px;
-    width: 80%;
+    height: 350px;
+    width: 70%;
     padding: 20px 35px;
     background: #191919;
     border-radius: 20px;
@@ -238,8 +238,20 @@ h5 {
     margin-bottom: 15px;
 }
 
+.pra a {
+    text-decoration: none;
+    color: white;
+}
+
 .pra p {
     color: #FCFC;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.pra h6 {
+    color: white;
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
